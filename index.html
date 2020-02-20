@@ -7,6 +7,21 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/litera/bootstrap.min.css" media="screen">
+      <style type="text/css">
+        ul.rocket {
+          padding-left: 1em;
+        }
+
+        ul.rocket li {
+          list-style: none;
+        }
+
+        ul.rocket li:before {
+          content: '🚀';
+          display: inline-block;
+          transform: rotate(45deg);
+        }
+      </style>
   </head>
   <body>
     <div class="container">
@@ -31,8 +46,8 @@
       <hr class="mt-5 mb-5" />
       <div class="row">
         <div class="col-lg-6">
-          <h4>Looking for a resume? 🤓</h4>
-          <ul>
+          <h4 class="mb-3">Looking for a resume? 🤓</h4>
+          <ul class="rocket">
             <li>
               My traditional <a href="https://stackoverflow.com/cv/dochoffiday" target="_blank">CV</a>
               (<a href="https://stackoverflow.com/users/story/pdf/234132?View=Pdf" target="_blank">PDF</a>)
@@ -51,7 +66,7 @@
           </ul>
         </div>
         <div class="col-lg-6">
-          <h4>Hear it from friends! 💬</h4>
+          <h4 class="mb-3">Hear it from friends! 💬</h4>
           <div class="card border-success mb-3">
             <div class="card-body">
               <blockquote>
