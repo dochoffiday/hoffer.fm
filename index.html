@@ -8,18 +8,20 @@
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/litera/bootstrap.min.css" media="screen">
       <style type="text/css">
-        ul.rocket {
-          padding-left: 1em;
-        }
-
         ul.rocket li {
           list-style: none;
+          position: relative;
         }
 
         ul.rocket li:before {
           content: '🚀';
           display: inline-block;
           transform: rotate(45deg);
+          vertical-align: middle;
+          font-size: .85em;
+          position: absolute;
+          top: .2em;
+          left: -2em;
         }
       </style>
   </head>
